@@ -1,4 +1,4 @@
-console.log("# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # # ")
+// console.log("# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # # ")
 
 let chessboard = ' '
 for ( let x = 0; x < 8; x++){
