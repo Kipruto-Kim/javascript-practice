@@ -15,8 +15,8 @@ const s = (162 + 4 * (1 - i)) / 50;
 e.use.setAttributeNS(
 null,
 "transform",
-'translate(${(ep.x + e.x) / 2},${(ep.y + e.y) / 2})
+`translate(${(ep.x + e.x) / 2},${(ep.y + e.y) / 2})
 rotate(${(180 / Math.PI) * a
-}) translate(${0},${0}) scale(${s},${s})'
+}) translate(0,0) scale(${s},${s})`
 );
 }
